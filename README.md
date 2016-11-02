@@ -7,7 +7,7 @@
 
 ## Instructions
 
-In this lab you'll be learning how to iterate through an array and output the results in different ways. Write your code in the `conference_badges.rb` file and you can run the test suite using the `learn` command.
+In this lab you'll be learning how to iterate through an array and output the results in different ways. Write your code in the `conference_badges.rb` file and you can run the test suite using the `rspec` command.
 
 You're hosting a conference and need to print badges for the speakers. Each badge should read: "Hello, my name is _____." Write a `badge_maker` method that, when provided a person's name, will create and return this message. E.g.:
 
@@ -28,5 +28,3 @@ You just realized that you also need to give each speaker a room assignment. Wri
 
 Now you have to tell the printer what to print. Create a method called `printer` that will output first the results of the `batch_badge_creator` method and then of the `assign_rooms` method to the screen.
   * *Hint*: Remember that methods can call other methods. If the return value of `assign_rooms` is an array of room assignments, how can you print out each assignment? You'll need to iterate over your array of room assignments in order to `puts` out each individual assignment.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/badges-and-schedules' title='Badges and Schedules'>Badges and Schedules</a> on Learn.co and start learning to code for free.</p>
